@@ -1,0 +1,13 @@
+dependencies {
+	compileOnly group: "biz.aQute.bnd", name: "biz.aQute.bndlib", version: "3.1.0"
+	compileOnly group: "com.liferay", name: "com.liferay.osgi.util", version: "3.0.0"
+	compileOnly group: "com.liferay", name: "com.liferay.portal.spring.extender", version: "2.0.0"
+	compileOnly group: "com.liferay.portal", name: "com.liferay.portal.kernel", version: "2.6.0"
+	compileOnly project(":modules:student:student-api")
+}
+
+buildService {
+	apiDir = "../student-api/src/main/java"
+	osgiModule = true
+	propsUtil = "org.javasavvy.student.service.util.PropsUtil"
+}

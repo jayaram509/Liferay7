@@ -1,0 +1,7 @@
+Bundle-SymbolicName: student-api
+Bundle-Version: 1.0.0
+Export-Package:\
+	org.javasavvy.student.exception,\
+	org.javasavvy.student.model,\
+	org.javasavvy.student.service,\
+	org.javasavvy.student.service.persistence

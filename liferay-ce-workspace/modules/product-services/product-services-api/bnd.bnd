@@ -1,0 +1,7 @@
+Bundle-SymbolicName: product.services-api
+Bundle-Version: 1.0.0
+Export-Package:\
+	org.javasavvy.product.exception,\
+	org.javasavvy.product.model,\
+	org.javasavvy.product.service,\
+	org.javasavvy.product.service.persistence
